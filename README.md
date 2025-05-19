@@ -79,9 +79,7 @@ You can take the following suggestive steps to build the model:
 
 7.  Finally, choose a model based on some evaluation metric.
 
-
-After identifying important predictors, display them visually - you can use plots, summary tables etc. - whatever you think best conveys the importance of features.
-
- 
-
-Finally, recommend strategies to manage customer churn based on your observations.
+## Results
+After identifying important predictors by displaying them visually - plots, summary tables etc.
+The logistic regression model successfully identifying potential churn customers.
+Recommend strategies to manage customer churn based on the observations.
