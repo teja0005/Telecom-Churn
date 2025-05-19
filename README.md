@@ -17,7 +17,7 @@ The data dictionary contains meanings of abbreviations. Some frequent ones are l
 The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
 
 ## Steps followed:
-###I. Data Preparation
+### I. Data Preparation
 The following data preparation steps are crucial for this problem:
 1. Derive new features
 This is one of the most important parts of data preparation since good features are often the differentiators between good and bad models. Use your business understanding to derive features you think could be important indicators of churn.
@@ -31,7 +31,7 @@ Now tag the churned customers (churn=1, else 0) based on the fourth month as fol
 total_ic_mou_9,  total_og_mou_9,  vol_2g_mb_9,  vol_3g_mb_9
 After tagging churners, remove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
 
-###II. Modelling
+### II. Modelling
 Build models to predict churn. The predictive model that you’re going to build will serve two purposes:
 It will be used to predict whether a high-value customer will churn or not, in near future (i.e. churn phase). By knowing this, the company can take action steps such as providing special plans, discounts on recharge etc.
 It will be used to identify important variables that are strong predictors of churn. These variables may also indicate why customers choose to switch to other networks.
