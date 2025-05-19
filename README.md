@@ -1,4 +1,4 @@
-# Telecom-Churn
+# Telecom-Churn Case Study
 
 ## Business problem overview
 
